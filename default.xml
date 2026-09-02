@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="630cc44c7d192bb94ef338c66a030e84c4bd2c07" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="f3186a0ebeb8baf076c7b01508fe5b2a674f93c8" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1220,7 +1220,7 @@
   <project path="test/vts" name="platform/test/vts" revision="3f7c9b3f78e339c03d8b09c7dd67bcd2d854f41f" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="4cf94915bfa6d6840d46050f6f0e3cdf340a422c" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="338ec378920ee6d2ed3ddaaf42e5b67877e17e96" groups="vts,pdk" upstream="android14-tests-release" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="bbc209048977894d9133cb04c63a1a9ba47a780c" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" revision="d4f41f5f11dfa5068e532df4821159861aa5526c" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" revision="5de6b992ca4a80b381c8a5dced4debceb8034035" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
@@ -1253,7 +1253,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="871d8de65b50510e3c0001764f33529d5d5f5dca" upstream="android14-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="6ea45c1608f8b7b255f323c2da807cd6681cc6cb" upstream="android14-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="9b5b8bd306d3d4aa61d6e1ffa4dc6f19fd4e412e" upstream="android14-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="5076d9a4c548c1ede0c5ba9c910f79b8ab2ce572" groups="pdk,tradefed" clone-depth="1" upstream="android14-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="d03cd32b6c955933e19b3fb549ac051efc9848b4" groups="pdk,tradefed" clone-depth="1" upstream="android14-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="bbc410a8f74311eab22c3497b591eed89e9a4eda" upstream="android14-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="53a3443be6cb92b68ca7c0c3a52c372f123e6211" upstream="android14-tests-release" />
   
