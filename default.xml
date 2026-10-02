@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-xr-runtime-pre-release" remote="aosp" />
+  <default revision="sparse-16426160-L46000030197804355" remote="aosp" />
   <project path="build/make" name="platform/build" revision="d8eefbe41dac58682661caf34ef7c15ee1433cdc" upstream="androidx-xr-runtime-pre-release" />
 
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-xr-runtime-pre-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-runtime-pre-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="032e43b8daa9da143a45ac432ca0a64589ad58cf" upstream="androidx-xr-runtime-pre-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="0dd6e7dab17fda84d05db59b699404ecf3aa1164" upstream="androidx-xr-runtime-pre-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="8f7520cd1c3b8827733165e62ca3b455ade68006" upstream="androidx-xr-runtime-pre-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="0917863294a3a29f8e73a7adaf2cc575e599804c" upstream="androidx-xr-runtime-pre-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="ba0fa057634e2badfcc19e646a09554b9512e506" upstream="androidx-xr-runtime-pre-release" />
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="aaa66e540d994b92f83c6bd2c321da0950c50f47" upstream="androidx-xr-runtime-pre-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="12d4cb6c0802680b6c95691e395f91d9ae92f38c" upstream="androidx-xr-runtime-pre-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
