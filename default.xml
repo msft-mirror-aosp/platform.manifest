@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="63839054d243b8dc4e7345d2a032425f3640ea50" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="d05e07bb84bd1f7ddda34e52e5d9c28efec0894e" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1332,7 +1332,7 @@
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" revision="0c6e83d2f3cf9068f718531658e746b1e878d7a0" upstream="android15-tests-release" />
   <project path="test/cts-root" name="platform/test/cts-root" revision="2d86934ff8ec537364cc881dfc86a73dfe716963" upstream="android15-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="a9be441bc2c5012316e32c0bc6eed8373c27c9b3" upstream="android15-tests-release" />
-  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="3afa6cc041ed87336354d8a0c0e483d7523db491" upstream="android15-tests-release" />
+  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="a9365b29aedd6884ce1353408efefa6cb8ed2e48" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" revision="1e699172d7b32ab0305a1c5f34b91d12c2bfbdad" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="android15-tests-release" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" revision="679db9c427586614c4ddc504f27b84bbc924587b" upstream="android15-tests-release" />
