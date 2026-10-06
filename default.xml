@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-paging-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="c579f84b9bea4e55b5ced5ef28e6de551754c995" upstream="androidx-paging-release" />
+  <project path="build/make" name="platform/build" revision="fef7234d07c69d8fc8d41c13e0826c320dea5b0b" upstream="androidx-paging-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="b2d56879e494f18807a9d4125cdb8f3c3a7a81c2" upstream="androidx-paging-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="0989c329f4dba2ac30bba57247e28fe6d99e1244" upstream="androidx-paging-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
