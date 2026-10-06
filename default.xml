@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-location-altitude-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="cdb9f666f7c17dbbf75ca6c8b7b186a65bdefe39" upstream="androidx-core-location-altitude-release" />
+  <project path="build/make" name="platform/build" revision="93a3b83dff77fe18b49f154d29b711c3e303bdf4" upstream="androidx-core-location-altitude-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="a95266623bd2e6b286cbd12c2eefec5b9845316a" upstream="androidx-core-location-altitude-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="0622edeea71119f7885a9998a0fc1b7e6e9e2c8d" upstream="androidx-core-location-altitude-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
