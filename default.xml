@@ -7,6 +7,7 @@
   <default revision="androidx-main"
            remote="aosp"
            sync-j="8" />
+  <superproject name="platform/superproject" revision="dackka-main-dev"/>
   <project path="tools/dokka-devsite-plugin" name="platform/tools/dokka-devsite-plugin" />
   <project path="prebuilts/dokka-devsite-plugin" name="platform/prebuilts/dokka-devsite-plugin" clone-depth="1"/>
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" />
