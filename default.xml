@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="f9f8862e409f1910b862bf48bb459dfc2d9aa85a" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="f156b928daf5ded8409d93847787bd098f2b22ae" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -24,7 +24,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" revision="19b38938f30b4686977dda0881d16edcd7b0679d" upstream="android15-tests-release" />
+  <project path="art" name="platform/art" groups="pdk" revision="9524547aa98c6caab2013f9bb6cae4cae808525b" upstream="android15-tests-release" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="9eb8f49e82156c3464c05ca535e18825fdaeb03b" upstream="android15-tests-release" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
