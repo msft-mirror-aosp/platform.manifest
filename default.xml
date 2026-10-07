@@ -6,6 +6,7 @@
   <default revision="metalava-main"
            remote="aosp"
            sync-j="8" />
+  <superproject name="platform/superproject" revision="metalava-main"/>
   <project path="tools/metalava" name="platform/tools/metalava" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" clone-depth="1" revision="main" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" revision="main" />
